@@ -1,15 +1,14 @@
 
 import './App.css';
+import Home from './components/Home';
+import React from 'react'
+
 
 function App() {
   return (
+ 
+      <Home />
     
-    <div>
-      <h1>Hello</h1>
-          <p1>
-            i started the project
-          </p1>
-    </div>
   );
 }
 
