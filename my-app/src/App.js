@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1>Hello</h1>
           <p1>
-            This means i started the project
+            i started the project
           </p1>
     </div>
   );
