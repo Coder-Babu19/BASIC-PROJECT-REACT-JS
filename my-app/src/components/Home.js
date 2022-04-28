@@ -5,7 +5,6 @@ import pic from '../images/news.jpg'
 
 
 export default function Home() {
-
   return (
 
     <div className = {HomeCSS.container} >

@@ -5,10 +5,12 @@ import Home from './components/Home';
 import React from 'react'
 
 
+
 function App() {
+
   return (
     <div>
-        <img src={logo} className = "logo" alt = ""/>
+        {/* <img src={logo} className = "logo" alt = "" /> */}
         <Home />
     
     </div>
