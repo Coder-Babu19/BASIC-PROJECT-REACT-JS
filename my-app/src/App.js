@@ -6,9 +6,12 @@ import React from 'react'
 
 function App() {
   return (
- 
-      <Home />
+    <div>
+        <h1> The peaks</h1>
+        <Home />
     
+    </div>
+      
   );
 }
 
