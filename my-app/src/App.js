@@ -1,5 +1,6 @@
 
-import './App.css';
+import './App.module.css';
+import logo from './images/logo.png'
 import Home from './components/Home';
 import React from 'react'
 
@@ -7,7 +8,7 @@ import React from 'react'
 function App() {
   return (
     <div>
-        <h1> The peaks</h1>
+        <img src={logo} className = "logo" alt = ""/>
         <Home />
     
     </div>

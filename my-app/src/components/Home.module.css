@@ -1,11 +1,33 @@
 
-
 .container{
-    
-    min-height: 1000px;
-
+    /* width: 100%; */
+    height: fit-content;
     margin-top: 1%;
-    align-items: center;
-    padding-left: 20%;
-    background-color: white;
+    place-items: center;
+    padding: 1%;
+    background-color: rgb(251, 251, 251);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.newsCard{
+
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    min-height: fit-content;
+    background-color: rgb(1, 1, 105);
+    
+}
+
+.textProperties{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.img1{
+    width: 100%;
+    align-self: center;
 }
